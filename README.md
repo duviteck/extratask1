@@ -7,6 +7,7 @@
  
 Список фотографий надо забирать через Flickr API:
 https://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=da9d38d3dee82ec8dda8bb0763bf5d9c&format=json&nojsoncallback=1
+
 URL фотографии формируется на основе полученного ответа следующим образом:
 https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg
  
